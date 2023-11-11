@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI objectName;
     [SerializeField] private Transform actionButtonsPool;
     [SerializeField] private Button buttonPrefab;
+    [SerializeField] private InventoryManager inventoryManager;
 
     public void AddActionButton(Action buttonAction, string text)
     {
@@ -26,6 +27,21 @@ public class UIManager : MonoBehaviour
 
     public void SetMenuPanelActive(bool isActive)
     {
-        menuPanel.SetActive(isActive);
+        if (menuPanel)
+        {
+            menuPanel.SetActive(isActive);
+        }
+    }
+
+    //for debugging only
+    public void AddItem(string name)
+    {
+        inventoryManager.AddToInventory(name);
+    }
+
+    //for debugging only
+    public void RemoveItem(string name)
+    {
+        inventoryManager.RemoveFromInventory(name);
     }
 }
