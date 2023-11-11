@@ -10,15 +10,47 @@ public class CharacterMovement : MonoBehaviour
     private float horizontal;
     private float vertical;
 
+    private bool canMove;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        canMove = true;
     }
 
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
+        if (canMove)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal");
+            vertical = Input.GetAxisRaw("Vertical");
+        }
+    }
+
+    private void OnEnable()
+    {
+        InteractableManager.OnChoicePanelOpened += FreezeMovement;
+        InteractableManager.OnChoicePanelClosed += UnfreezeMovement;
+        DialogueManager.OnDialogueStarted += FreezeMovement;
+        DialogueManager.OnDialogueEnded += UnfreezeMovement;
+    }
+
+    private void OnDisable()
+    {
+        InteractableManager.OnChoicePanelOpened -= FreezeMovement;
+        InteractableManager.OnChoicePanelClosed -= UnfreezeMovement;
+        DialogueManager.OnDialogueStarted -= FreezeMovement;
+        DialogueManager.OnDialogueEnded -= UnfreezeMovement;
+    }
+
+    private void FreezeMovement()
+    {
+        canMove = false;
+    }
+
+    private void UnfreezeMovement()
+    {
+        canMove = true;
     }
 
     private void FixedUpdate()

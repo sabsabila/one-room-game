@@ -1,11 +1,20 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 public class Interactables : MonoBehaviour
 {
+    [Serializable]
+    public struct InteractDialogue
+    {
+        public string Action;
+        public DialogueScriptableObject Dialogue;
+    }
+
     public string objectName;
+    [SerializeField] private List<InteractDialogue> _interactionList;
     public DialogueScriptableObject[] dialogues;
-    public string[] actions;
+    public List<string> actions;
 
     protected Dictionary<string, string[]> dialogueMap;
     protected UIManager uiManager;
@@ -20,36 +29,41 @@ public class Interactables : MonoBehaviour
         uiManager.SetObjectName(objectName);
 
         dialogueMap = new Dictionary<string, string[]>();
-        for(int i = 0; i < actions.Length; i++)
+        for(int i = 0; i < actions.Count; i++)
         {
             dialogueMap.Add(actions[i], dialogues[i].lines);
         }
     }
 
-    protected void Update()
+    public void ShowInteractionChoice()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isCollided)
-        {
-            uiManager.SetMenuPanelActive(true);
-        }
+        InteractableManager.Instance.InitChoices(_interactionList);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            isCollided = true;
-        }
-    }
+    //protected void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.E) && isCollided)
+    //    {
+    //        uiManager.SetMenuPanelActive(true);
+    //    }
+    //}
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            isCollided = false;
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.tag == "Player")
+    //    {
+    //        isCollided = true;
+    //    }
+    //}
 
-            uiManager.SetMenuPanelActive(false);
-        }
-    }
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    if (collision.tag == "Player")
+    //    {
+    //        isCollided = false;
+
+    //        uiManager.SetMenuPanelActive(false);
+    //    }
+    //}
 
 }

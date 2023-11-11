@@ -28,4 +28,22 @@ public class UIManager : MonoBehaviour
     {
         menuPanel.SetActive(isActive);
     }
+
+    #region Instance
+
+    public static UIManager Instance;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
+    #endregion
 }

@@ -10,10 +10,12 @@ public class Dialogue : MonoBehaviour
     public float textSpeed;
     private int index;
 
+    [SerializeField] private GameObject _content;
+
     void Start()
     {
         dialogueText.text = "";
-        StartDialogue();
+        //StartDialogue();
     }
 
     // Update is called once per frame
@@ -32,8 +34,10 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void StartDialogue()
+    public void StartDialogue()
     {
+        dialogueText.text = "";
+        DialogueManager.StartDialogue();
         index = 0;
         StartCoroutine(TypeLine());
     }
@@ -57,7 +61,8 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            transform.parent.gameObject.SetActive(false);
+            _content.SetActive(false);
+            DialogueManager.EndDialogue();
         }
     }
 }
