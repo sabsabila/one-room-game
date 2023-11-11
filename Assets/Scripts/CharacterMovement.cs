@@ -20,7 +20,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
-        if (canMove)
+        if (canMove && !DialogueManager.Instance.CheckIsDialogueActive())
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");

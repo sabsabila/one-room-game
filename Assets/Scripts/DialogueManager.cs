@@ -43,6 +43,11 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(isActive);
     }
 
+    public bool CheckIsDialogueActive()
+    {
+        return dialoguePanel.activeSelf;
+    }
+
     #region Instance
 
     public static DialogueManager Instance;

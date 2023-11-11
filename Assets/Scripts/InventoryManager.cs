@@ -9,13 +9,15 @@ public class InventoryManager : MonoBehaviour
     public Transform inventoryListPool;
 
     private List<string> items;
+    [SerializeField] private List<string> dialogues;
 
     void Start()
     {
         items = new List<string>();
+        dialogues = new List<string>();
     }
     
-    public void AddToInventory(string name)
+    public void AddItemToInventory(string name)
     {
         if (!CheckItemExist(name))
         {
@@ -26,7 +28,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void RemoveFromInventory(string name)
+    public void RemoveItemFromInventory(string name)
     {
         if (CheckItemExist(name))
         {
@@ -40,8 +42,47 @@ public class InventoryManager : MonoBehaviour
         return items.Contains(name);
     }
 
+    public void AddDialogueToInventory(string name)
+    {
+        if (!CheckDialogueExist(name))
+        {
+            dialogues.Add(name);
+        }
+    }
+
+    public void RemoveDialogueFromInventory(string name)
+    {
+        if (CheckDialogueExist(name))
+        {
+            dialogues.Remove(name);
+        }
+    }
+
+    public bool CheckDialogueExist(string name)
+    {
+        return dialogues.Contains(name);
+    }
+
     public void SetPanelActive(bool isActive)
     {
         gameObject.SetActive(isActive);
     }
+
+    #region Instance
+
+    public static InventoryManager Instance;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
+    #endregion
 }

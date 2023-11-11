@@ -29,18 +29,14 @@ public class PlayerInteractionController : MonoBehaviour
 
     private void OnEnable()
     {
-        InteractableManager.OnChoicePanelOpened += DisableInteraction;
-        InteractableManager.OnChoicePanelClosed += EnableInteraction;
-        DialogueManager.OnDialogueStarted += DisableInteraction;
-        DialogueManager.OnDialogueEnded += EnableInteraction;
+        DialogueManager.OnDialogueStarted += HandleOnDialogueStart;
+        DialogueManager.OnDialogueEnded += HandleOnDialogueEnd;
     }
 
     private void OnDisable()
     {
-        InteractableManager.OnChoicePanelOpened -= DisableInteraction;
-        InteractableManager.OnChoicePanelClosed -= EnableInteraction;
-        DialogueManager.OnDialogueStarted -= DisableInteraction;
-        DialogueManager.OnDialogueEnded -= EnableInteraction;
+        DialogueManager.OnDialogueStarted -= HandleOnDialogueStart;
+        DialogueManager.OnDialogueEnded -= HandleOnDialogueEnd;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -108,10 +104,30 @@ public class PlayerInteractionController : MonoBehaviour
     private void EnableInteraction()
     {
         _canInteract = true;
+        Debug.Log(">>> can Interact : " + _canInteract + " || " + DialogueManager.Instance.CheckIsDialogueActive());
     }
 
     private void DisableInteraction()
     {
         _canInteract = false;
+        Debug.Log(">>> can Interact : " + _canInteract);
     }
+
+    #region Callbacks
+
+    private void HandleOnDialogueStart()
+    {
+        DisableInteraction();
+
+        _prompt.SetActive(false);
+    }
+
+    private void HandleOnDialogueEnd()
+    {
+        EnableInteraction();
+
+        TogglePrompt();
+    }
+
+    #endregion
 }

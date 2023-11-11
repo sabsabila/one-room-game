@@ -59,11 +59,11 @@ public class InteractableChoicePanel : MonoBehaviour
         InteractableManager.CloseChoicePanel();
     }
 
-    public void GenerateChoiceButton(Interactables.InteractDialogue interaction)
+    public void GenerateChoiceButton(InteractAction action)
     {
         var btn = Instantiate(_buttonPrefab, _buttonContainer.transform).GetComponent<InteractableChoiceButton>();
 
-        btn.InitComponent(interaction);
+        btn.InitComponent(action);
 
         _choiceButtonList.Add(btn.gameObject);
     }

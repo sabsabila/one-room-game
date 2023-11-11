@@ -6,25 +6,24 @@ using UnityEngine.UI;
 
 public class InteractableChoiceButton : MonoBehaviour
 {
-    private string action;
+    private string _actionName;
     private DialogueScriptableObject _dialogue;
+    private InteractAction _action;
 
     private Button _btn;
 
-    public void InitComponent(Interactables.InteractDialogue interaction)
+    public void InitComponent(InteractAction action)
     {
         _btn = GetComponent<Button>();
-        _dialogue = interaction.Dialogue;
+        _action = action;
 
-        GetComponentInChildren<TextMeshProUGUI>().text = interaction.Action;
+        GetComponentInChildren<TextMeshProUGUI>().text = action.InteractionName;
 
         _btn.onClick.AddListener(PlayDialogue);
     }
 
     private void PlayDialogue()
     {
-        DialogueManager.Instance.SetActiveDialogue(_dialogue.lines, "MC");
-        DialogueManager.Instance.SetDialoguePanelActive(true);
-        UIManager.Instance.SetMenuPanelActive(false);
+        _action.Interact();
     }
 }

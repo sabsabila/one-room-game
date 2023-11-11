@@ -36,13 +36,13 @@ public class UIManager : MonoBehaviour
     //for debugging only
     public void AddItem(string name)
     {
-        inventoryManager.AddToInventory(name);
+        inventoryManager.AddItemToInventory(name);
     }
 
     //for debugging only
     public void RemoveItem(string name)
     {
-        inventoryManager.RemoveFromInventory(name);
+        inventoryManager.RemoveItemFromInventory(name);
     }
 
     #region Instance

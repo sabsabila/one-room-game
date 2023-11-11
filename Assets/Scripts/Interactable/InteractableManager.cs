@@ -37,15 +37,21 @@ public class InteractableManager : MonoBehaviour
         }
     }
 
-    public void InitChoices(List<Interactables.InteractDialogue> interactionList)
+    public void InitChoices(List<InteractAction> actionList)
     {
-        foreach (var interaction in interactionList)
+        if (!_choicePanel.IsChoicePanelActive())
         {
-            _choicePanel.GenerateChoiceButton(interaction);
-        }
+            foreach (var action in actionList)
+            {
+                if (action.CheckCanGenerateButton())
+                {
+                    _choicePanel.GenerateChoiceButton(action);
+                }
+            }
 
-        _choicePanel.GenerateCancelButton();
-        _choicePanel.ShowChoicePanel();
+            _choicePanel.GenerateCancelButton();
+            _choicePanel.ShowChoicePanel();
+        }
     }
 
     #region Instance

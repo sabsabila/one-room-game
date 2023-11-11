@@ -10,15 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
-  m_Name: Sit
+  m_Name: desk1_examine_2
   m_EditorClassIdentifier: 
-  DialogueId: sit_chair_1
+  DialogueId: examine_desk1_2
   lines:
-  - Okay, im sitting down
-  - ....and?
-  - .....
-  - Oi.
-  - You're supposed to get me OUT of here, how are you going to do that if you don't
-    do anything and just make me sit around-
-  - '*MC sits in the detention room and reflect on her mistakes untill it''s time
-    to go home*'
+  - Almost forget I left some money in here.

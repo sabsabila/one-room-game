@@ -7,12 +7,13 @@ public class Interactables : MonoBehaviour
     [Serializable]
     public struct InteractDialogue
     {
-        public string Action;
-        public DialogueScriptableObject Dialogue;
+        public string Name;
+        public InteractAction Action;
     }
 
     public string objectName;
     [SerializeField] private List<InteractDialogue> _interactionList;
+    [SerializeField] private List<InteractAction> _interactActionList;
     public DialogueScriptableObject[] dialogues;
     public List<string> actions;
 
@@ -37,7 +38,7 @@ public class Interactables : MonoBehaviour
 
     public void ShowInteractionChoice()
     {
-        InteractableManager.Instance.InitChoices(_interactionList);
+        InteractableManager.Instance.InitChoices(_interactActionList);
     }
 
     //protected void Update()
