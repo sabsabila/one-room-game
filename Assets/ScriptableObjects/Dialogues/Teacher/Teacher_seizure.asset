@@ -20,9 +20,24 @@ MonoBehaviour:
   - My- My heARt....
   - '*dramatically collapsing*'
   - ............
-  - Uhh... hello...
-  - I'm dying here
-  - Somebody.....
-  - Call an ambulance.....?
   - Ugh fine, whatever.
   - I'll act better next time.
+  Lines:
+  - owner: 0
+    line: S-sir, i-
+  - owner: 0
+    line: '*have seizures*'
+  - owner: 0
+    line: I'm gonna diE-
+  - owner: 0
+    line: My- My heARt....
+  - owner: 0
+    line: '*dramatically collapsing*'
+  - owner: 2
+    line: That's not gonna work, you know?
+  - owner: 0
+    line: ............
+  - owner: 0
+    line: Ugh fine, whatever.
+  - owner: 0
+    line: I'll act better next time.

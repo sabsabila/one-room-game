@@ -79,6 +79,14 @@ public class Dialogue : MonoBehaviour
         {
             _charaNameTMP.text = "";
         }
+        else if (line.owner == EDialogueOwner.Teacher)
+        {
+            _charaNameTMP.text = EDialogueOwner.Teacher.ToString();
+        }
+        else if (line.owner == EDialogueOwner.Friend)
+        {
+            _charaNameTMP.text = EDialogueOwner.Friend.ToString() + " A";
+        }
         else
         {
             _charaNameTMP.text = EDialogueOwner.Ica.ToString();

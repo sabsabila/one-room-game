@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
+  m_Name: Teacher_dad
+  m_EditorClassIdentifier: 
+  DialogueId: 
+  lines: []
+  Lines:
+  - owner: 0
+    line: Let me go home now or i'll call my dad
+  - owner: 2
+    line: And so what if you do?
+  - owner: 0
+    line: He will probably wants to have a word with you
+  - owner: 0
+    line: Do you know who my dad is?
+  - owner: 0
+    line: He's the-
+  - owner: 2
+    line: The congressman?
+  - owner: 2
+    line: Yeah right... Ask me that again when your father actually comes and have
+      a word
+  - owner: 0
+    line: '*calls dad*'
+  - owner: 0
+    line: Hey dad, I got into detention again. Can you bail me out?
+  - owner: 0
+    line: Here, just talk to my teacher
+  - owner: 0
+    line: '*hands over the phone*'
+  - owner: 0
+    line: Well, while they're talking
+  - owner: 0
+    line: let's chat
+  - owner: 0
+    line: Sooo
+  - owner: 1
+    line: You have a long, unimportant chat with ica. We can just skip that to shorten
+      the game duration.
+  - owner: 0
+    line: TL;DR, my father okayed the bail out
+  - owner: 0
+    line: The bad thing is, my father find out i'm in detention
+  - owner: 0
+    line: This will probably get me out of detention in school, but, when i go home
+      i'll probably be grounded for a while
+  - owner: 0
+    line: But hey, you'll come with me right?
+  - owner: 0
+    line: Hopefully the devs already created that DLC when i got home
+  - owner: 0
+    line: Soo, this is it for now
+  - owner: 0
+    line: Thanks for the help, player
+  - owner: 0
+    line: I'll see you soon
+  - owner: 0
+    line: Don't forget to check out different endings okay. Preferably the ones that
+      don't get me in trouble
+  - owner: 0
+    line: Bye.

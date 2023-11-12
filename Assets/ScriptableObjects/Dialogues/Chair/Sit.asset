@@ -13,12 +13,31 @@ MonoBehaviour:
   m_Name: Sit
   m_EditorClassIdentifier: 
   DialogueId: sit_chair_1
-  lines:
-  - Okay, im sitting down
-  - ....and?
-  - .....
-  - Oi.
-  - You're supposed to get me OUT of here, how are you going to do that if you don't
-    do anything and just make me sit around-
-  - '*MC sits in the detention room and reflect on her mistakes untill it''s time
-    to go home*'
+  lines: []
+  Lines:
+  - owner: 0
+    line: Sooooooooo
+  - owner: 0
+    line: Is your plan involves me just sitting in this chair?
+  - owner: 0
+    line: Ugh...
+  - owner: 0
+    line: I'm Bored dude....
+  - owner: 0
+    line: Wait...
+  - owner: 0
+    line: What? that's an ending?
+  - owner: 0
+    line: huh, i guess doubting you was the bad move
+  - owner: 0
+    line: Well, this is a bit boring though just sitting here for around ...
+  - owner: 0
+    line: Well , whatever, an escape is an escape i guess, if you can call that an
+      escape
+  - owner: 0
+    line: Anyway, thanks for the help... i guess
+  - owner: 0
+    line: Well , whatever, an escape is an escape i guess, if you can call that an
+      escape
+  - owner: 0
+    line: See you when i see you then
