@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95c140d1256b36846b304060031116a6, type: 3}
-  m_Name: take_desk1
+  m_Name: make_coffee
   m_EditorClassIdentifier: 
-  InteractionName: Take Money
+  InteractionName: Make Coffee
   DialogueList:
-  - Dialogue: {fileID: 11400000, guid: 08335796d0f1fc843974fb4fe16615b2, type: 2}
+  - Dialogue: {fileID: 11400000, guid: 57432b2c7551ddd4ba2a4eee0958293c, type: 2}
     RequiredItemList: []
     RequiredDialogueList: []
-  RouteRequirementAcquired: {fileID: 11400000, guid: 7aac0870dc37ece489d68ee6b2e57119, type: 2}
-  Item: {fileID: 11400000, guid: 3682705ec0910274f9d58464f2e1d3a5, type: 2}
+  RouteRequirementAcquired: {fileID: 0}
+  Item: {fileID: 11400000, guid: 1e27cee735ab0964f8e6cd6ce9609acd, type: 2}
   IsRepeatable: 1

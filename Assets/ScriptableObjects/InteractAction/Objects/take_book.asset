@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95c140d1256b36846b304060031116a6, type: 3}
-  m_Name: take_desk1
+  m_Name: take_book
   m_EditorClassIdentifier: 
-  InteractionName: Take Money
+  InteractionName: Grab a Book
   DialogueList:
-  - Dialogue: {fileID: 11400000, guid: 08335796d0f1fc843974fb4fe16615b2, type: 2}
+  - Dialogue: {fileID: 11400000, guid: 4fea9ce88f4a51246acd29c2b6ee8cda, type: 2}
     RequiredItemList: []
     RequiredDialogueList: []
-  RouteRequirementAcquired: {fileID: 11400000, guid: 7aac0870dc37ece489d68ee6b2e57119, type: 2}
-  Item: {fileID: 11400000, guid: 3682705ec0910274f9d58464f2e1d3a5, type: 2}
+  RouteRequirementAcquired: {fileID: 0}
+  Item: {fileID: 11400000, guid: 348d14e2913f0c246a279f7bec258bba, type: 2}
   IsRepeatable: 1
