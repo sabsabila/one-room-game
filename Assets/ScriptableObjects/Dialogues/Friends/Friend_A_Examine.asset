@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
+  m_Name: Friend_A_Examine
+  m_EditorClassIdentifier: 
+  DialogueId: 
+  lines:
+  - That's my Detention friend.
+  - I don't really talk to him that much,
+  - But i think he said that he wanted to be some kind of merchant.
