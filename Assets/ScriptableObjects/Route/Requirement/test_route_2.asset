@@ -9,12 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
-  m_Name: desk1_use_1
+  m_Script: {fileID: 11500000, guid: 972dc4d2653a7fa4e8bbf3fd00633426, type: 3}
+  m_Name: test_route_2
   m_EditorClassIdentifier: 
-  DialogueId: desk1_use_1
-  lines:
-  - Let's put it back, just to be safe.
-  Lines:
-  - owner: 0
-    line: Let's put it back, just to be safe.
+  RequirementId: test_route_2

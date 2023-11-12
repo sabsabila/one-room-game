@@ -17,5 +17,6 @@ MonoBehaviour:
   - Dialogue: {fileID: 11400000, guid: 74069c2e5c0ecce4ea640a1fe4424d2a, type: 2}
     RequiredItemList: []
     RequiredDialogueList: []
+  RouteRequirementAcquired: {fileID: 11400000, guid: ac02a61beb4993b43be7f089a5a6b13c, type: 2}
   Item: {fileID: 11400000, guid: 3682705ec0910274f9d58464f2e1d3a5, type: 2}
   IsRepeatable: 1

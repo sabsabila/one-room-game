@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
-  m_Name: desk1_use_1
+  m_Script: {fileID: 11500000, guid: 69342f0fdc46504428cf1b674c3e20fc, type: 3}
+  m_Name: TestEnding
   m_EditorClassIdentifier: 
-  DialogueId: desk1_use_1
-  lines:
-  - Let's put it back, just to be safe.
-  Lines:
-  - owner: 0
-    line: Let's put it back, just to be safe.
+  RequirementList:
+  - {fileID: 11400000, guid: 7aac0870dc37ece489d68ee6b2e57119, type: 2}
+  - {fileID: 11400000, guid: ac02a61beb4993b43be7f089a5a6b13c, type: 2}
+  EndingNote: Saving Money

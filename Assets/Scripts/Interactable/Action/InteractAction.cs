@@ -14,6 +14,7 @@ public class InteractAction : ScriptableObject
 
     public string InteractionName;
     public List<InteractDialogue> DialogueList;
+    public RouteRequirement RouteRequirementAcquired;
 
     public virtual void Interact()
     {
@@ -24,6 +25,8 @@ public class InteractAction : ScriptableObject
         //DialogueManager.Instance.SetDialoguePanelActive(true);
         //UIManager.Instance.SetMenuPanelActive(false);
         InventoryManager.Instance.AddDialogueToInventory(dialogue.DialogueId);
+
+        DialogueManager.OnDialogueEnded += HandleOnDialogueEnd;
     }
 
     public virtual bool CheckCanGenerateButton()
@@ -108,5 +111,15 @@ public class InteractAction : ScriptableObject
         }
 
         return activeDialogue;
+    }
+
+    private void HandleOnDialogueEnd()
+    {
+        if (RouteRequirementAcquired != null)
+        {
+            RouteManager.Instance.AddRequirementToList(RouteRequirementAcquired.RequirementId);
+        }
+
+        DialogueManager.OnDialogueEnded -= HandleOnDialogueEnd;
     }
 }
