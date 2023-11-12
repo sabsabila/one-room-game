@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 339317a65f0a8b7459b532f014978431, type: 3}
-  m_Name: Call_dad
+  m_Script: {fileID: 11500000, guid: 95c140d1256b36846b304060031116a6, type: 3}
+  m_Name: bag_take_phone
   m_EditorClassIdentifier: 
-  InteractionName: Call Dad
+  InteractionName: Take Phone
   DialogueList:
-  - Dialogue: {fileID: 11400000, guid: b7e85f9520996ab49b361f0c7fa6f90f, type: 2}
-    RequiredItemList:
-    - {fileID: 11400000, guid: 580801254871b8343977a8ca0dce59d7, type: 2}
+  - Dialogue: {fileID: 11400000, guid: ac9d89a55615afa4b8313ce210508804, type: 2}
+    RequiredItemList: []
     RequiredDialogueList: []
   RouteRequirementAcquired: {fileID: 0}
+  Item: {fileID: 11400000, guid: 580801254871b8343977a8ca0dce59d7, type: 2}
+  IsRepeatable: 1

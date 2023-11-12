@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 339317a65f0a8b7459b532f014978431, type: 3}
-  m_Name: Call_dad
+  m_Script: {fileID: 11500000, guid: 95c140d1256b36846b304060031116a6, type: 3}
+  m_Name: take_book
   m_EditorClassIdentifier: 
-  InteractionName: Call Dad
+  InteractionName: Grab a Book
   DialogueList:
-  - Dialogue: {fileID: 11400000, guid: b7e85f9520996ab49b361f0c7fa6f90f, type: 2}
-    RequiredItemList:
-    - {fileID: 11400000, guid: 580801254871b8343977a8ca0dce59d7, type: 2}
+  - Dialogue: {fileID: 11400000, guid: 4fea9ce88f4a51246acd29c2b6ee8cda, type: 2}
+    RequiredItemList: []
     RequiredDialogueList: []
   RouteRequirementAcquired: {fileID: 0}
+  Item: {fileID: 11400000, guid: 348d14e2913f0c246a279f7bec258bba, type: 2}
+  IsRepeatable: 1

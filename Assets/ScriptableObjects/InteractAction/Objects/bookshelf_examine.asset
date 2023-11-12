@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 339317a65f0a8b7459b532f014978431, type: 3}
-  m_Name: Call_dad
+  m_Name: bookshelf_examine
   m_EditorClassIdentifier: 
-  InteractionName: Call Dad
+  InteractionName: Examine
   DialogueList:
-  - Dialogue: {fileID: 11400000, guid: b7e85f9520996ab49b361f0c7fa6f90f, type: 2}
-    RequiredItemList:
-    - {fileID: 11400000, guid: 580801254871b8343977a8ca0dce59d7, type: 2}
+  - Dialogue: {fileID: 11400000, guid: 9962dc235658ce048970b220a695e837, type: 2}
+    RequiredItemList: []
     RequiredDialogueList: []
   RouteRequirementAcquired: {fileID: 0}

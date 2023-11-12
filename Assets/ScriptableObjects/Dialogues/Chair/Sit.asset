@@ -15,6 +15,13 @@ MonoBehaviour:
   DialogueId: sit_chair_1
   lines: []
   Lines:
+  - owner: 1
+    line: (Please pretend you have sat for hours.)
+  - owner: 1
+    line: (This is just to shorten the game duration, not that we don't have the
+      time to make a proper mechanism for this route or anything.)
+  - owner: 1
+    line: (.....just believe us. Now, back to our MC,)
   - owner: 0
     line: Sooooooooo
   - owner: 0
@@ -36,8 +43,5 @@ MonoBehaviour:
       escape
   - owner: 0
     line: Anyway, thanks for the help... i guess
-  - owner: 0
-    line: Well , whatever, an escape is an escape i guess, if you can call that an
-      escape
   - owner: 0
     line: See you when i see you then
