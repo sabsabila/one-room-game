@@ -20,12 +20,12 @@ public class InteractableChoicePanel : MonoBehaviour
 
     private void OnEnable()
     {
-        DialogueManager.OnDialogueStarted += HideChoicePanel;
+        DialogueManager.OnDialogueStarted += HandleOnDialogueStart;
     }
 
     private void OnDisable()
     {
-        DialogueManager.OnDialogueStarted -= HideChoicePanel;
+        DialogueManager.OnDialogueStarted -= HandleOnDialogueStart;
     }
 
     #endregion
@@ -102,4 +102,14 @@ public class InteractableChoicePanel : MonoBehaviour
     {
         _buttonContainer.SetActive(isVisible);
     }
+
+    #region Callbacks
+
+    private void HandleOnDialogueStart()
+    {
+        ToggleChoicePanel(false);
+        ResetChoiceButtonList();
+    }
+
+    #endregion
 }
