@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: gift_friend
   m_EditorClassIdentifier: 
   DialogueId: 
-  lines: []
   Lines:
   - owner: 0
     line: Hey, I got something for you
@@ -23,8 +22,11 @@ MonoBehaviour:
     line: 'You know what, i don''t wanna know. '
   - owner: 3
     line: What do you want in exchange?
-  - owner: 3
+  - owner: 0
     line: Well, that's easy. I wanna get out of here, can you do something about
       it?
-  - owner: 0
+  - owner: 3
     line: That's it? Say less.
+  - owner: 1
+    line: (The friend ligts a lighter and burns a book to start a fire. The fire
+      alarm went on)
