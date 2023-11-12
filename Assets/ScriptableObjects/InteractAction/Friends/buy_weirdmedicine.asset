@@ -18,6 +18,6 @@ MonoBehaviour:
     RequiredItemList:
     - {fileID: 11400000, guid: 3682705ec0910274f9d58464f2e1d3a5, type: 2}
     RequiredDialogueList: []
-  RouteRequirementAcquired: {fileID: 0}
+  RouteRequirementAcquired: {fileID: 11400000, guid: 1ddcb1f23e35fee4db6d5940959dbd54, type: 2}
   Item: {fileID: 11400000, guid: 8ee6c5e7334d4ae4e8a0c972cc731745, type: 2}
-  IsRepeatable: 1
+  IsRepeatable: 0

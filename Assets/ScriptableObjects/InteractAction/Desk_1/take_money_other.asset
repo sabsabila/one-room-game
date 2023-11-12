@@ -19,4 +19,4 @@ MonoBehaviour:
     RequiredDialogueList: []
   RouteRequirementAcquired: {fileID: 0}
   Item: {fileID: 11400000, guid: 377c8cc0af718e14b917982b70e9491b, type: 2}
-  IsRepeatable: 1
+  IsRepeatable: 0

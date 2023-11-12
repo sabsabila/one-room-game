@@ -13,9 +13,29 @@ MonoBehaviour:
   m_Name: buy_weirdmedicine
   m_EditorClassIdentifier: 
   DialogueId: 
-  lines: []
   Lines:
   - owner: 0
     line: I'll get the Weird Medicine
   - owner: 3
     line: Hehe, Pleasure Doing business with you
+  - owner: 1
+    line: ...
+  - owner: 0
+    line: So... Let me get this straight
+  - owner: 0
+    line: Your plan is to have me drink this unknown medicine that we bought for
+      10k
+  - owner: 0
+    line: then, after that you told me just to wing it?
+  - owner: 0
+    line: Haaaah
+  - owner: 0
+    line: Here goes nothing i guess
+  - owner: 1
+    line: Urp
+  - owner: 0
+    line: Hey Player i.. don't feel so good...
+  - owner: 0
+    line: Ughh...
+  - owner: 0
+    line: Hospital... I need to go to the Hospital...

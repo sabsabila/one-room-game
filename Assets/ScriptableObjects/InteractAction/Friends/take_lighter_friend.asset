@@ -21,4 +21,4 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 00fe879fbe107ba4cb8eab4a45633306, type: 2}
   RouteRequirementAcquired: {fileID: 0}
   Item: {fileID: 11400000, guid: ef9e161c9cdaf7548824a6fc05894b5d, type: 2}
-  IsRepeatable: 1
+  IsRepeatable: 0
