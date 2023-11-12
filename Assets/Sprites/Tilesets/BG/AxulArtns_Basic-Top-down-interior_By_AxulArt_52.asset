@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: AxulArtns_Basic-Top-down-interior_By_AxulArt_52
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1654748452, guid: f84bc0e52fbf95941abeaade3e2c7ef0, type: 3}
+  m_Sprite: {fileID: 1654748452, guid: 3d438344321e97f4487dd2dd3c35bb35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

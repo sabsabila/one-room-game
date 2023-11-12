@@ -121,7 +121,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wall_2_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1344
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811123dcb89df974cab177c73cdebbca
+      internalID: 1925239740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 95
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df022dcb507f9540875e4e0f8c05460
+      internalID: -317863412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1248
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fea84028de01dd4cac755ccc25d15a8
+      internalID: -900022832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1248
+        width: 94
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aae6519ec0731d4e9cb14fa7bc28961
+      internalID: -155069352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1152
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67368a58dd66f04694843da187caf4b
+      internalID: 769574670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074b9d39275eed84fb7f43ceb03f2e33
+      internalID: -885857110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1056
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4eca008758e5345a590743093eac84
+      internalID: -2057540769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1056
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc602f13f8034c4da8438fcb81fcc37
+      internalID: -2112937856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 960
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0184c5690ea47c74997943064f70e69a
+      internalID: -461566047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8a8cfacb6865548b67805bdc41d8aa
+      internalID: 632712328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 864
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e33296daa167eb4e8417e75e3ee50d9
+      internalID: 619347554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068db95688cdbce47b37be08d7c51019
+      internalID: 581777678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 768
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e4cb4b36777e6458bf7ce8050c4a54
+      internalID: 1617880718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863fca2fde185fb4b98336d818aa9de8
+      internalID: -938114125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 672
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f478c4423b5cec34c9127d49f9d63f39
+      internalID: -1726709405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb5bb625b762004bacd9f22c2abbcdb
+      internalID: 372516042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656ae117f7b132b4c8c35108d822ec4c
+      internalID: 96843296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc7b174fa4588745825ecfb46a3afb2
+      internalID: -1799348015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3232ac274be5844c93bf3f48e4e2172
+      internalID: -316681872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac338cf9d989ede478153f6b2e5353c4
+      internalID: -1181472858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 384
+        width: 322
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6521c25ff6c8f114d90298213da42cfb
+      internalID: -80145357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2e98cb0123f32408d03028f602c55e
+      internalID: 306315305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1c51ee8abf8dd4eb732fcdbc59f968
+      internalID: 480784532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277abc7b49a0882489b80906b3a2f6c9
+      internalID: -1863685891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae113bf37c7b5747ade1b6a9d91c8e9
+      internalID: -219694583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ef99f1b20e2a14fb5baa2a7f892632
+      internalID: -42116084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de3e417424de784ba96bde89a494369
+      internalID: -1560358779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a82ec981e950049a938f88111984f2
+      internalID: -469956209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07c0efe2f3d9684cadc01656febb712
+      internalID: 1050827022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 320
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993934a4a37d8824e923bc1ad57cb4a0
+      internalID: -326551212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +762,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wall_2_32x32_0: 1925239740
+      Wall_2_32x32_1: -317863412
+      Wall_2_32x32_10: 619347554
+      Wall_2_32x32_11: 581777678
+      Wall_2_32x32_12: 1617880718
+      Wall_2_32x32_13: -938114125
+      Wall_2_32x32_14: -1726709405
+      Wall_2_32x32_15: 372516042
+      Wall_2_32x32_16: 96843296
+      Wall_2_32x32_17: -1799348015
+      Wall_2_32x32_18: -316681872
+      Wall_2_32x32_19: -1181472858
+      Wall_2_32x32_2: -900022832
+      Wall_2_32x32_20: -80145357
+      Wall_2_32x32_21: 306315305
+      Wall_2_32x32_22: 480784532
+      Wall_2_32x32_23: -1863685891
+      Wall_2_32x32_24: -219694583
+      Wall_2_32x32_25: -42116084
+      Wall_2_32x32_26: -1560358779
+      Wall_2_32x32_27: -469956209
+      Wall_2_32x32_28: 1050827022
+      Wall_2_32x32_29: -326551212
+      Wall_2_32x32_3: -155069352
+      Wall_2_32x32_4: 769574670
+      Wall_2_32x32_5: -885857110
+      Wall_2_32x32_6: -2057540769
+      Wall_2_32x32_7: -2112937856
+      Wall_2_32x32_8: -461566047
+      Wall_2_32x32_9: 632712328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
