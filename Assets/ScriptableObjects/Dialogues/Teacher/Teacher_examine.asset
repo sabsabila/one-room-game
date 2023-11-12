@@ -17,3 +17,10 @@ MonoBehaviour:
   - That's the supervising teacher.
   - 'I guess for him there''s nothing to do also, but hey, that room''s cozy. '
   - Taking a nap in there will probably such a bliss right?
+  Lines:
+  - owner: 0
+    line: That's the supervising teacher.
+  - owner: 0
+    line: 'I guess for him there''s nothing to do also, but hey, that room''s cozy. '
+  - owner: 0
+    line: Taking a nap in there will probably such a bliss right?
