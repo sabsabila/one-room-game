@@ -15,3 +15,6 @@ MonoBehaviour:
   DialogueId: examine_desk1_3
   lines:
   - Lucky~
+  Lines:
+  - owner: 0
+    line: Lucky~

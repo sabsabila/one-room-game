@@ -15,3 +15,6 @@ MonoBehaviour:
   DialogueId: examine_desk1_2
   lines:
   - Almost forget I left some money in here.
+  Lines:
+  - owner: 0
+    line: Almost forget I left some money in here.

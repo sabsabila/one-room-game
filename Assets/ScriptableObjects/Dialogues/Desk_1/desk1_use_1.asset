@@ -15,3 +15,6 @@ MonoBehaviour:
   DialogueId: desk1_use_1
   lines:
   - Let's put it back, just to be safe.
+  Lines:
+  - owner: 0
+    line: Sweet, there's <b>10K</b> here

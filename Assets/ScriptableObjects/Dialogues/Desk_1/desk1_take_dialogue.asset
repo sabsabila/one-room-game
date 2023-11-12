@@ -15,3 +15,8 @@ MonoBehaviour:
   DialogueId: take_desk1
   lines:
   - Sweet, there's <b>10K</b> here
+  Lines:
+  - owner: 1
+    line: You obtained 10K!
+  - owner: 0
+    line: Sweet, there's 10K here

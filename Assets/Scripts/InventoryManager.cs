@@ -7,6 +7,7 @@ public class InventoryManager : MonoBehaviour
 {
     public GameObject itemListPrefab;
     public Transform inventoryListPool;
+    [SerializeField] private GameObject _contentPanel;
 
     private List<string> items;
     [SerializeField] private List<string> dialogues;
@@ -65,7 +66,7 @@ public class InventoryManager : MonoBehaviour
 
     public void SetPanelActive(bool isActive)
     {
-        gameObject.SetActive(isActive);
+        _contentPanel.SetActive(isActive);
     }
 
     #region Instance

@@ -6,6 +6,7 @@ using System;
 
 public class DialogueManager : MonoBehaviour
 {
+    [SerializeField] private List<DialogueCharacterData> _characterData;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private Dialogue dialogue;
 
@@ -38,6 +39,13 @@ public class DialogueManager : MonoBehaviour
         dialogue.StartDialogue();
     }
 
+    public void SetActiveLines(List<DialogueLines> _lines)
+    {
+        dialogue.activeLines = _lines;
+        SetDialoguePanelActive(true);
+        dialogue.StartDialogue();
+    }
+
     public void SetDialoguePanelActive(bool isActive)
     {
         dialoguePanel.SetActive(isActive);
@@ -46,6 +54,11 @@ public class DialogueManager : MonoBehaviour
     public bool CheckIsDialogueActive()
     {
         return dialoguePanel.activeSelf;
+    }
+
+    public Sprite GetCharacterSprite(EDialogueOwner owner)
+    {
+        return _characterData.Find(x => x.owner == owner).sprite;
     }
 
     #region Instance
@@ -65,4 +78,24 @@ public class DialogueManager : MonoBehaviour
     }
 
     #endregion
+}
+
+[Serializable]
+public class DialogueLines
+{
+    public EDialogueOwner owner;
+    public string line;
+}
+
+public enum EDialogueOwner
+{
+    Ica,
+    Narrator
+}
+
+[Serializable]
+public class DialogueCharacterData
+{
+    public EDialogueOwner owner;
+    public Sprite sprite;
 }

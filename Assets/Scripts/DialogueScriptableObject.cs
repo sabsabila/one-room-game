@@ -7,4 +7,5 @@ public class DialogueScriptableObject : ScriptableObject
 {
     public string DialogueId;
     public string[] lines;
+    public List<DialogueLines> Lines;
 }

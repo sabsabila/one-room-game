@@ -17,3 +17,10 @@ MonoBehaviour:
   - That's my own personal detention desk.
   - I got called here so many times that they give me one.
   - Sick Right?
+  Lines:
+  - owner: 0
+    line: That's my own personal detention desk.
+  - owner: 0
+    line: I got called here so many times that they give me one.
+  - owner: 0
+    line: Sick Right?

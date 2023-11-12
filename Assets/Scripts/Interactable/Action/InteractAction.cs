@@ -19,9 +19,10 @@ public class InteractAction : ScriptableObject
     {
         var dialogue = GetDialogue();
 
-        DialogueManager.Instance.SetActiveDialogue(dialogue.lines, "MC");
-        DialogueManager.Instance.SetDialoguePanelActive(true);
-        UIManager.Instance.SetMenuPanelActive(false);
+        DialogueManager.Instance.SetActiveLines(dialogue.Lines);
+        //DialogueManager.Instance.SetActiveDialogue(dialogue.lines, "MC");
+        //DialogueManager.Instance.SetDialoguePanelActive(true);
+        //UIManager.Instance.SetMenuPanelActive(false);
         InventoryManager.Instance.AddDialogueToInventory(dialogue.DialogueId);
     }
 
