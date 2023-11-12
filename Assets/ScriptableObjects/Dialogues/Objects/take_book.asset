@@ -21,3 +21,5 @@ MonoBehaviour:
     line: Probably a good read to spend some time, but i'm not in the mood to read.
   - owner: 0
     line: I'll just keep this for now
+  - owner: 1
+    line: Ica obtained a book.

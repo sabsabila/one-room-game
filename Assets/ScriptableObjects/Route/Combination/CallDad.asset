@@ -9,13 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
-  m_Name: teacher_desk_other
+  m_Script: {fileID: 11500000, guid: 69342f0fdc46504428cf1b674c3e20fc, type: 3}
+  m_Name: CallDad
   m_EditorClassIdentifier: 
-  DialogueId: 
-  lines: []
-  Lines:
-  - owner: 0
-    line: 'The teachers desk is the same. '
-  - owner: 0
-    line: I wonder where she's at in this dimension
+  RequirementList: []
+  EndingNote: 

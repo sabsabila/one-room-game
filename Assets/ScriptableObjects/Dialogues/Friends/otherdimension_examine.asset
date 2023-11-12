@@ -14,4 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueId: 
   lines: []
-  Lines: []
+  Lines:
+  - owner: 0
+    line: 'Isn''t That friend A? '
+  - owner: 0
+    line: He's also in another dimension huh.
+  - owner: 0
+    line: In the detention room no less.
+  - owner: 0
+    line: He looks a bit older though,
+  - owner: 1
+    line: (Please pretend he looks older)
+  - owner: 0
+    line: You reckon he's a Merchant now?

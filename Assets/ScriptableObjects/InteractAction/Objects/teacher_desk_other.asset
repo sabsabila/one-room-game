@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339317a65f0a8b7459b532f014978431, type: 3}
   m_Name: teacher_desk_other
   m_EditorClassIdentifier: 
-  InteractionName: 
-  DialogueList: []
+  InteractionName: Examine
+  DialogueList:
+  - Dialogue: {fileID: 11400000, guid: 7a874ebd86a099d4d809761809b145d4, type: 2}
+    RequiredItemList: []
+    RequiredDialogueList: []
   RouteRequirementAcquired: {fileID: 0}

@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueId: 
   lines: []
-  Lines: []
+  Lines:
+  - owner: 0
+    line: 'Hmm, the door''s blocked. '
+  - owner: 0
+    line: Guess i can't escape the detention room in this dimension as well.

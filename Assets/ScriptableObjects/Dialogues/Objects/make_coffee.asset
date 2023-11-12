@@ -19,3 +19,5 @@ MonoBehaviour:
     line: Some Coffee might be good, but i'm not that thirsty though.
   - owner: 0
     line: For now i'll just hang on to this for a while
+  - owner: 1
+    line: Ica obtained a cup of coffee.

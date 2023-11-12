@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339317a65f0a8b7459b532f014978431, type: 3}
   m_Name: door_rubble
   m_EditorClassIdentifier: 
-  InteractionName: 
-  DialogueList: []
+  InteractionName: Examine
+  DialogueList:
+  - Dialogue: {fileID: 11400000, guid: 3efa613187e0a05479a11f1b0a9a1c6b, type: 2}
+    RequiredItemList: []
+    RequiredDialogueList: []
   RouteRequirementAcquired: {fileID: 0}
