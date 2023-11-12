@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c140d1256b36846b304060031116a6, type: 3}
+  m_Name: take_lighter_friend
+  m_EditorClassIdentifier: 
+  InteractionName: Exchange Coffee for Lighter
+  DialogueList:
+  - Dialogue: {fileID: 11400000, guid: 915f22710a7bb29498e9e4cd359766bc, type: 2}
+    RequiredItemList:
+    - {fileID: 11400000, guid: 1e27cee735ab0964f8e6cd6ce9609acd, type: 2}
+    RequiredDialogueList:
+    - {fileID: 11400000, guid: 00fe879fbe107ba4cb8eab4a45633306, type: 2}
+  RouteRequirementAcquired: {fileID: 0}
+  Item: {fileID: 11400000, guid: ef9e161c9cdaf7548824a6fc05894b5d, type: 2}
+  IsRepeatable: 1
