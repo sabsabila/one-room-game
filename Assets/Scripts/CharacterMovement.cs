@@ -67,6 +67,8 @@ public class CharacterMovement : MonoBehaviour
 
     private void FreezeMovement()
     {
+        horizontal = 0;
+        vertical = 0;
         canMove = false;
     }
 
