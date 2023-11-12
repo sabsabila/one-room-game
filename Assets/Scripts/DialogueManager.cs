@@ -90,7 +90,9 @@ public class DialogueLines
 public enum EDialogueOwner
 {
     Ica,
-    Narrator
+    Narrator,
+    Teacher,
+    Friend
 }
 
 [Serializable]

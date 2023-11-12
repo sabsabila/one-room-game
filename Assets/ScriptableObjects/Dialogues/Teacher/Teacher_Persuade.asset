@@ -10,17 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
-  m_Name: Friend_A_Examine
+  m_Name: Teacher_Persuade
   m_EditorClassIdentifier: 
   DialogueId: 
-  lines:
-  - That's my Detention friend.
-  - I don't really talk to him that much,
-  - But i think he said that he wanted to be some kind of merchant.
+  lines: []
   Lines:
   - owner: 0
-    line: That's my Detention friend.
+    line: Excuse me sir
+  - owner: 2
+    line: Hmm? What do you need?
   - owner: 0
-    line: I don't really talk to him that much,
+    line: Can i go home?
+  - owner: 2
+    line: What do you expect the answer will be MC asking that question?
   - owner: 0
-    line: But i think he said that he wanted to be some kind of merchant.
+    line: Well, it's was worth a shot
+  - owner: 2
+    line: No, it's not. Go back and reflect on what you did that get you in detention
+      in the first place

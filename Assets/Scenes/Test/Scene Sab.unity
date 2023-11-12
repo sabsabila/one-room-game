@@ -684,9 +684,10 @@ GameObject:
   - component: {fileID: 41802551}
   - component: {fileID: 41802552}
   - component: {fileID: 41802553}
+  - component: {fileID: 41802554}
   m_Layer: 0
   m_Name: Chair 1
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -803,6 +804,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.375, y: 0.375}
   m_EdgeRadius: 0
+--- !u!114 &41802554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41802550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e43bdd76347f4e4aad052afe2e45514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Chair
+  _interactionList: []
+  _interactActionList:
+  - {fileID: 11400000, guid: 1ad1fc788b500f444b8a93bafcdfd56f, type: 2}
+  dialogues: []
+  actions: []
 --- !u!1 &44572605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,8 +1981,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1337723668}
-  _charaAvatar: {fileID: 0}
-  _charaNameTMP: {fileID: 0}
+  _charaAvatar: {fileID: 346206162}
+  _charaNameTMP: {fileID: 762093436}
   activeLines: []
   lines:
   - Uhh... hi?
@@ -7793,6 +7812,8 @@ MonoBehaviour:
   _interactActionList:
   - {fileID: 11400000, guid: 73782b02c65a8824985eeb5b625cb112, type: 2}
   - {fileID: 11400000, guid: 425444e1b552c8746ba37eeaa4bd7148, type: 2}
+  - {fileID: 11400000, guid: f1f94f1f14e7e5a48a07fd09665661ab, type: 2}
+  - {fileID: 11400000, guid: b09cfd77695610b43a5f5dd9df1d7c04, type: 2}
   dialogues: []
   actions: []
 --- !u!61 &309855757
@@ -10983,7 +11004,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c5df3fd9ca202a4786ee404f01988a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterData: []
+  _characterData:
+  - owner: 0
+    sprite: {fileID: 21300000, guid: 2ecb24ce915c8014cb41083e425ba5ba, type: 3}
+  - owner: 1
+    sprite: {fileID: 0}
+  - owner: 2
+    sprite: {fileID: 21300000, guid: 6d082282330105d4280c5f75b50510b3, type: 3}
+  - owner: 3
+    sprite: {fileID: 21300000, guid: edd0405125a1eaf48bfffa03315e4797, type: 3}
   dialoguePanel: {fileID: 1389274214}
   dialogue: {fileID: 94374148}
 --- !u!4 &540305847
@@ -11431,9 +11460,9 @@ RectTransform:
   - {fileID: 1560893231}
   m_Father: {fileID: 1728412836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 125, y: -36.30132}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 250, y: 72.60264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &560247217
@@ -22643,7 +22672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1253480171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24498,27 +24527,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5055606026224722121, guid: a35876115d97b6d4e8016ea819916562, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5055606026224722121, guid: a35876115d97b6d4e8016ea819916562, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6006254901034898460, guid: a35876115d97b6d4e8016ea819916562, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6872052536587729337, guid: a35876115d97b6d4e8016ea819916562, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6872052536587729337, guid: a35876115d97b6d4e8016ea819916562, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6872052536587729337, guid: a35876115d97b6d4e8016ea819916562, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -17
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27751,9 +27780,10 @@ GameObject:
   - component: {fileID: 1651407988}
   - component: {fileID: 1651407989}
   - component: {fileID: 1651407990}
+  - component: {fileID: 1651407991}
   m_Layer: 0
   m_Name: Table 1
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27870,6 +27900,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.375, y: 0.375}
   m_EdgeRadius: 0
+--- !u!114 &1651407991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651407987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e43bdd76347f4e4aad052afe2e45514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Desk
+  _interactionList: []
+  _interactActionList:
+  - {fileID: 11400000, guid: 4461123e6652f5443be65dd4397516a3, type: 2}
+  - {fileID: 11400000, guid: db3d0a943adc8594b952f561b08566c2, type: 2}
+  - {fileID: 11400000, guid: 85cfd8ad55e892b4dabe3c39516f59d2, type: 2}
+  dialogues: []
+  actions: []
 --- !u!1 &1657861654
 GameObject:
   m_ObjectHideFlags: 0
