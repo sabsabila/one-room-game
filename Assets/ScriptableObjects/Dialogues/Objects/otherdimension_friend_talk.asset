@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
+  m_Name: otherdimension_friend_talk
+  m_EditorClassIdentifier: 
+  DialogueId: 
+  lines: []
+  Lines:
+  - owner: 0
+    line: Hey dude, this would sound weird but do you know me?
+  - owner: 3
+    line: Hm? wait you're Ica  right? Man, it's been a minute since i saw you, how
+      you've been?
+  - owner: 0
+    line: Oh hey, well, just hanging on i guess. What about you? you got this merchant
+      esque vibe going on
+  - owner: 3
+    line: That's cause i am. I can get you anything you want. For a price of course
+  - owner: 0
+    line: What are you sellin?
+  - owner: 3
+    line: I got a collection of good things on sale Ica, for 10k you can get this
+      weird medicine. For 50k you can get this sleeping medicine or this Mystery
+      Gift
