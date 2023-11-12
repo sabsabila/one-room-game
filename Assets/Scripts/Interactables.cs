@@ -29,11 +29,6 @@ public class Interactables : MonoBehaviour
         dialogueManager = FindObjectOfType<DialogueManager>();
         uiManager.SetObjectName(objectName);
 
-        dialogueMap = new Dictionary<string, string[]>();
-        for(int i = 0; i < actions.Count; i++)
-        {
-            dialogueMap.Add(actions[i], dialogues[i].lines);
-        }
     }
 
     public void ShowInteractionChoice()

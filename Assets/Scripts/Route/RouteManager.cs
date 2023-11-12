@@ -39,16 +39,19 @@ public class RouteManager : MonoBehaviour
 
         foreach(var route in _routeList)
         {
-            foreach(var requirement in route.RequirementList)
+            isCompleted = true;
+
+            foreach (var requirement in route.RequirementList)
             {
-                if(!_acquiredRequirementList.Exists(x => x.Equals(requirement.RequirementId)))
+                
+                if (!_acquiredRequirementList.Exists(x => x.Equals(requirement.RequirementId)))
                 {
                     isCompleted = false;
 
                     break;
                 }
             }
-
+            //Debug.Log(">>> requirement : " + requirement.RequirementId + " || " + isCompleted);
             if (isCompleted)
             {
                 _completedRoute = route;

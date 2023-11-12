@@ -12,5 +12,15 @@ public class EndingSceneManager : MonoBehaviour
         _endingNoteTMP.text = GameManager.EndingNote;
 
         FadeManager.Instance.FadeIn();
+
+        StartCoroutine(BackToMainMenu());
+    }
+
+    private IEnumerator BackToMainMenu()
+    {
+        yield return new WaitForSeconds(5);
+
+        FadeManager.OnFadeOut += GameManager.LoadMainMenuScene;
+        FadeManager.Instance.FadeOut();
     }
 }

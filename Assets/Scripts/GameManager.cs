@@ -32,4 +32,14 @@ public static class GameManager
     {
         SceneManager.LoadScene("EndingScene");
     }
+
+    public static void LoadGameScene()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
+    public static void LoadMainMenuScene()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

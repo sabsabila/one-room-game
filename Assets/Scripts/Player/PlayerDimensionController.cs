@@ -10,7 +10,7 @@ public class PlayerDimensionController : MonoBehaviour
 
     private void Start()
     {
-        _canSwitch = true;
+        _canSwitch = false;
     }
 
     private void Update()
@@ -20,6 +20,7 @@ public class PlayerDimensionController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 DimensionManager.Instance.SwitchDimension();
+                GameSceneManager.Instance.HandleOnFirstTimeChangingDimension();
             }
         }
     }

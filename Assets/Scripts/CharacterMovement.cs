@@ -19,7 +19,7 @@ public class CharacterMovement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
-        canMove = true;
+        canMove = false;
     }
 
     void Update()

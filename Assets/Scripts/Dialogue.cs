@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class Dialogue : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     private int index;
+
+    private Action OnDialogueEnd;
 
     [SerializeField] private GameObject _content;
 
@@ -25,7 +28,7 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && DialogueManager.Instance.CheckIsDialogueActive())
         {
             if(dialogueText.text == activeLines[index].line)
             {

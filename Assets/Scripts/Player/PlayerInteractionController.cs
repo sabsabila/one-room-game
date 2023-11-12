@@ -16,7 +16,7 @@ public class PlayerInteractionController : MonoBehaviour
     {
         TogglePrompt();
 
-        _canInteract = true;
+        _canInteract = false;
     }
 
     private void Update()
