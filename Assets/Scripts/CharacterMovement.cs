@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    [SerializeField] private GameObject _model;
     public float runSpeed = 20.0f;
 
     private Rigidbody2D body;
@@ -12,9 +13,12 @@ public class CharacterMovement : MonoBehaviour
 
     private bool canMove;
 
+    private Animator _anim;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        _anim = GetComponent<Animator>();
         canMove = true;
     }
 
@@ -24,6 +28,24 @@ public class CharacterMovement : MonoBehaviour
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
+        }
+
+        if(horizontal != 0 || vertical != 0)
+        {
+            _anim.SetBool("isWalking", true);
+        }
+        else
+        {
+            _anim.SetBool("isWalking", false);
+        }
+
+        if(horizontal >= 0)
+        {
+            _model.transform.localScale = new Vector3(1, 1, 1);
+        }
+        else
+        {
+            _model.transform.localScale = new Vector3(-1, 1, 1);
         }
     }
 
