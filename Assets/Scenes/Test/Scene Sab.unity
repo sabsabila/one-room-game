@@ -11125,8 +11125,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _routeList:
   - {fileID: 11400000, guid: 652fc46431dd8714987e62241b949f64, type: 2}
+  - {fileID: 11400000, guid: 1843de29ac182984cbf0b0c1d0e8dedb, type: 2}
   _acquiredRequirementList: []
-  _completedRoute: {fileID: 11400000, guid: 652fc46431dd8714987e62241b949f64, type: 2}
+  _completedRoute: {fileID: 0}
 --- !u!114 &540305850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25348,6 +25349,9 @@ MonoBehaviour:
   _interactionList: []
   _interactActionList:
   - {fileID: 11400000, guid: bcd5d3bc1ae87c947be8faf63ac68192, type: 2}
+  - {fileID: 11400000, guid: 1403e9e77e4dd364b842aebb84ed7bdb, type: 2}
+  - {fileID: 11400000, guid: 9d96a01214e0ccd47aafefc1a226e338, type: 2}
+  - {fileID: 11400000, guid: 8f61b0a69a19530429ccb892afa98cc7, type: 2}
   dialogues: []
   actions: []
 --- !u!61 &1418011309
@@ -25435,7 +25439,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d172500a0f7bfb742be99b2526203fa8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1

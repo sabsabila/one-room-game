@@ -9,7 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 972dc4d2653a7fa4e8bbf3fd00633426, type: 3}
-  m_Name: call_dad_route
+  m_Script: {fileID: 11500000, guid: b09a9a6007b236a4e9d003573d1e4a05, type: 3}
+  m_Name: favor_friend
   m_EditorClassIdentifier: 
-  RequirementId: call_dad
+  DialogueId: 
+  lines: []
+  Lines:
+  - owner: 0
+    line: Hey Can you do something for me?
+  - owner: 3
+    line: Mmm, nah.

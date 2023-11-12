@@ -18,4 +18,4 @@ MonoBehaviour:
     RequiredItemList:
     - {fileID: 11400000, guid: 580801254871b8343977a8ca0dce59d7, type: 2}
     RequiredDialogueList: []
-  RouteRequirementAcquired: {fileID: 0}
+  RouteRequirementAcquired: {fileID: 11400000, guid: 294953af5e6bd0d42b4191c9e795cc91, type: 2}
