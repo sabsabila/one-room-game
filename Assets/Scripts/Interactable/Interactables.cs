@@ -12,10 +12,7 @@ public class Interactables : MonoBehaviour
     }
 
     public string objectName;
-    [SerializeField] private List<InteractDialogue> _interactionList;
     [SerializeField] private List<InteractAction> _interactActionList;
-    public DialogueScriptableObject[] dialogues;
-    public List<string> actions;
 
     protected Dictionary<string, string[]> dialogueMap;
     protected UIManager uiManager;
@@ -35,31 +32,4 @@ public class Interactables : MonoBehaviour
     {
         InteractableManager.Instance.InitChoices(_interactActionList);
     }
-
-    //protected void Update()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.E) && isCollided)
-    //    {
-    //        uiManager.SetMenuPanelActive(true);
-    //    }
-    //}
-
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.tag == "Player")
-    //    {
-    //        isCollided = true;
-    //    }
-    //}
-
-    //private void OnTriggerExit2D(Collider2D collision)
-    //{
-    //    if (collision.tag == "Player")
-    //    {
-    //        isCollided = false;
-
-    //        uiManager.SetMenuPanelActive(false);
-    //    }
-    //}
-
 }

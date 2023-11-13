@@ -27,14 +27,9 @@ public class DialogueManager : MonoBehaviour
 
     #endregion
 
-    //private string[] activeDialogue;
-    //private string activeCharacter;
 
     public void SetActiveDialogue(string[] _activeDialogue, string _activeCharacter)
     {
-        //activeDialogue = _activeDialogue;
-        //activeCharacter = _activeCharacter;
-
         dialogue.lines = _activeDialogue;
         dialogue.StartDialogue();
     }
@@ -53,7 +48,11 @@ public class DialogueManager : MonoBehaviour
 
     public bool CheckIsDialogueActive()
     {
-        return dialoguePanel.activeSelf;
+        if (dialoguePanel)
+        {
+            return dialoguePanel.activeSelf;
+        }
+        return false;
     }
 
     public Sprite GetCharacterSprite(EDialogueOwner owner)

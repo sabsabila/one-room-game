@@ -95,7 +95,10 @@ public class InteractableChoicePanel : MonoBehaviour
 
     private void ToggleNamePanel(bool isVisible)
     {
-        _objectNamePanel.SetActive(isVisible);
+        if (_objectNamePanel)
+        {
+            _objectNamePanel.SetActive(isVisible);
+        }
     }
 
     private void ToggleChoicePanel(bool isVisible)
