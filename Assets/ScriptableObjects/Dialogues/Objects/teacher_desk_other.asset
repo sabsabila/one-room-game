@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: teacher_desk_other
   m_EditorClassIdentifier: 
   DialogueId: 
-  lines: []
   Lines:
   - owner: 0
     line: 'The teachers desk is the same. '
   - owner: 0
-    line: I wonder where she's at in this dimension
+    line: I wonder where he's at in this dimension
